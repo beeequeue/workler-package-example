@@ -57,6 +57,9 @@ importers:
 
   user:
     dependencies:
+      pkg:
+        specifier: workspace:*
+        version: link:../pkg
       solid-js:
         specifier: 1.9.12
         version: 1.9.12

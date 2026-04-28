@@ -1,5 +1,5 @@
 {
-  "name": "pkg",
+  "name": "user",
   "type": "module",
   "version": "0.0.0",
   "files": [
@@ -17,6 +17,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "pkg": "workspace:*",
     "solid-js": "1.9.12"
   },
   "devDependencies": {
